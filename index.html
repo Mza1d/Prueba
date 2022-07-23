@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sistema de compras online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link">INICIO</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">CELULARES</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Samsung</a>
+                                <a href="#" class="dropdown-item">Iphone</a>
+                                <a href="#" class="dropdown-item">Hawei</a>
+                                <a href="#" class="dropdown-item">Xiaomi</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">TABLETS</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Samsung</a>
+                                <a href="#" class="dropdown-item">Hawei</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">ACCESORIOS</a>
+                    </div>
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Buscar">
+                            <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                        </div>
+                    </form>
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link">Iniciar Sesion</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example" data-slide-to="1"></li>
+            <li data-target="#carousel-example" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="#"><img src="image/b3.jpg" /></a>
+                <div class="carousel-caption">
+                    <h3 class="text-black">MEJORES CELULARES</h3>
+                    <p class="text-black">No te quedes sin el tu yo</p>
+                    <button class="btn text-black" style="border-radius: 10%; padding: 8px; background-color: chartreuse;">IR A LA TIENDA</button>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#"><img src="image/b4.png" /></a>
+                <div class="carousel-caption">
+                    <h3 class="text-black">RELOJES DIGITALES</h3>
+                    <p class="text-black">Desde 250.00 Bs</p>
+                    <button class="btn text-black" style="border-radius: 10%; padding: 8px; background-color: chartreuse;">COMPRAR AHORA</button>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#"><img src="image/b5.png" /></a>
+                <div class="carousel-caption">
+                    <h3 class="text-black">HAWEI Y6P</h3>
+                    <p class="text-black">Últimos modelos</p>
+                    <button class="btn text-black" style="border-radius: 10%; padding: 8px; background-color: chartreuse;">VER MAS OPCIONES +</button>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#"><img src="image/entrega.jpg" /></a>
+                <div class="carousel-caption">
+                    <h3 class="text-bg-info">ENVIOS SEGUROS</h3>
+                    <p class="text-bg-secondary bg-opacity-75" style="color:darkorange; font-size:x-large;">#Quedate en casa #Mantenge seguro</p>
+                    <button class="btn text-black" style="border: 2px; border-radius: 10%; padding: 8px; background-color: rgb(115, 255, 0);">CONTACTENOS</button>
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+    <section class="bg-darker bg-size-cover bg-position-center py-5 py-lg-10" style="background-image: url(image/banner.jpg); margin-top: 15px;">
+        <div class="container pb-5">
+            <div class="row justify-content-center pb-5">
+                <div class="col-xl-6 col-lg-7 col-md-8 col-sm-10 text-center">
+                    <h5 class="text-light fw-light">#La Mejor Relación Calidad Precio</h5>
+                    <div class="h1 text-light mb-3 pb-4">Compra un smartphone, con las características de un iPhone por menos de la mitad de su precio. &amp; La Más Alta Fiabilidad
+                        <div class="dropdown d-inline-block ms-1"><a class="dropdown-toggle text-white-50" href="#" data-bs-toggle="dropdown">VISITAR</a>
+                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item fs-base" href="#">Los Angeles</a><a class="dropdown-item fs-base" href="#">Chicago</a><a class="dropdown-item fs-base" href="#">Houston</a><a class="dropdown-item fs-base" href="#">Philadelphia</a>
+                                <a class="dropdown-item fs-base" href="#">San Diego</a><a class="dropdown-item fs-base" href="#">Miami</a></div>
+                        </div>
+                    </div><a class="btn btn-primary" href="#cuisine" data-scroll="">¿Ver todos los productos?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories (cuisine) grid-->
+    <section class="container py-4 my-lg-3 py-sm-5" id="cuisine">
+        <h2 class="text-center pt-4 pt-sm-3">PRODUCTOS MÁS RECIENTES</h2>
+        <p class="text-muted text-center mb-5">Elige lo que quieras y te lo llevamos</p>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mb-grid-gutter">
+                <a class="card border-1 shadow" href="#"><img class="card-img-top" src="image/h1.jpg" alt="celular">
+                    <div class="card-body py-4 text-center">
+                        <p class="text-black">Hawei Y5 2021</p>
+                        <h1> Bs. 1250</h1>
+                        <button class="btn-outline-primary" style="padding: 8px; text-align: center; border: none; border-radius: 50px; border-color: blue; font-family: Arial, Helvetica, sans-serif;">AGREGAR AL CARRITO</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-grid-gutter">
+                <a class="card border-1 shadow" href="#"><img class="card-img-top" src="image/s1.jpg" alt="Noodles">
+                    <div class="card-body py-4 text-center">
+                        <p class="text-black">SANSUMG GALAXY A30 2021</p>
+                        <h1> Bs. 2012</h1>
+                        <button class="btn-outline-primary" style="padding: 8px; text-align: center; border: none; border-radius: 50px; border-color: blue; font-family: Arial, Helvetica, sans-serif;">AGREGAR AL CARRITO</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-grid-gutter">
+                <a class="card border-0 shadow" href="#"><img class="card-img-top" src="image/x2.jpg" alt="Sushi &amp; Rolls">
+                    <div class="card-body py-4 text-center">
+                        <p class="text-black">Xiaomi Redmi Note 9 128GB</p>
+                        <h1> Bs. 1850</h1>
+                        <button class="btn-outline-primary" style="padding: 8px; text-align: center; border: none; border-radius: 50px; border-color: blue; font-family: Arial, Helvetica, sans-serif;">AGREGAR AL CARRITO</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-grid-gutter pt-3">
+                <a class="card border-0 shadow" href="#"><img class="card-img-top" src="image/t2.webp" alt="Pizza &amp; Pasta">
+                    <div class="card-body py-4 text-center">
+                        <p class="text-black">TABLET LENOVO M10</p>
+                        <h1> Bs. 1997</h1>
+                        <button class="btn-outline-primary" style="padding: 8px; text-align: center; border: none; border-radius: 50px; border-color: blue; font-family: Arial, Helvetica, sans-serif;">AGREGAR AL CARRITO</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-grid-gutter pt-3">
+                <a class="card border-0 shadow" href="#"><img class="card-img-top" src="image/r1.jpg" alt="Coffee &amp; Desserts">
+                    <div class="card-body py-4 text-center">
+                        <p class="text-black">XIAOMI SMARTWATCH</p>
+                        <h1> Bs. 365</h1>
+                        <button class="btn-outline-primary" style="padding: 8px; text-align: center; border: none; border-radius: 50px; border-color: blue; font-family: Arial, Helvetica, sans-serif;">AGREGAR AL CARRITO</button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-grid-gutter pt-3">
+                <a class="card border-0 shadow" href="#"><img class="card-img-top" src="image/tv1.jpg" alt="Healthy &amp; Food">
+                    <div class="card-body py-4 text-center">
+                        <p class="text-black">TV BOX</p>
+                        <h1> Bs. 2500</h1>
+                        <button class="btn-outline-primary" style="padding: 8px; text-align: center; border: none; border-radius: 50px; border-color: blue; font-family: Arial, Helvetica, sans-serif;">AGREGAR AL CARRITO</button>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary bg-size-cover bg-position-center pt-5" style="background-image: url(img/food-delivery/mobile-app-bg.jpg);">
+        <div class="container pt-2 pt-sm-0">
+            <div class="row align-items-center">
+                <div class="col-xl-4 col-lg-5 col-sm-6 offset-xl-2 offset-lg-1 mt-md-n5 text-center text-sm-start">
+                    <h2 class="text-light mb-3">Tenemos la mejor selección de celulares Samsung en Chile a los precios más asequibles.</h2>
+                    <p class="text-light opacity-70 mb-0 d-block d-sm-none d-md-block">Los celulares Samsung se han convertido en una parte indispensable de nuestras vidas. Hoy en día, los celulares Samsung se han convertido en una necesidad para muchas personas.</p>
+                    <div class="mt-4 pt-2"><a class="btn-market btn-apple me-3 mb-2" href="#" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">App Store</span></a>
+                        <a class="btn-market btn-google mb-2" href="#" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">Google Play</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-sm-6 offset-lg-1 pt-5 pt-sm-3"><img class="d-block mx-auto mx-sm-0" src="image/c2.png" width="331" alt="Mobile App Screen"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container pb-4 pt-lg-5 pb-sm-5">
+        <div class="row pt-4 mt-2 mt-lg-3 mb-md-2">
+            <div class="col-lg-6 mb-grid-gutter">
+                <div class="d-block d-sm-flex justify-content-between align-items-center bg-faded-info rounded-3">
+                    <div class="pt-5 py-sm-5 px-4 ps-md-5 pe-md-0 text-center text-sm-start">
+                        <h2>ENVIOS GRATUITOS</h2>
+                        <p class="text-muted pb-2">Se realizan envíos a domicilio o empresa apartar de 500 Bs hasta el 6to anillo en la ciudad de Santa Cruz. Los envíos nacionales a otros departamentos tienen costo</p><a class="btn btn-primary" href="#">Start earning</a>
+                    </div><img class="d-block mx-auto mx-sm-0" src="image/envios g.png" width="272" alt="Become a Courier">
+                </div>
+            </div>
+            <div class="col-lg-6 mb-grid-gutter">
+                <div class="d-block d-sm-flex justify-content-between align-items-center bg-faded-warning rounded-3">
+                    <div class="pt-5 py-sm-5 px-4 ps-md-5 pe-md-0 text-center text-sm-start">
+                        <h2>NUESTROS TIEMPOS DE ENVIO</h2>
+                        <p class="text-muted pb-2">Los envíos locales dentro de la ciudad de Santa Cruz tienen un tiempo máximo de entrega 2 días. Los envíos nacionales tienen un máximo entrega de 4 días</p><a class="btn btn-primary" href="#">Leer mas</a>
+                    </div><img class="d-block mx-auto mx-sm-0" src="image/envios01.png" width="269" alt="Become a Partner">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mb-grid-gutter">
+            <div class="d-block d-sm-flex justify-content-between align-items-center bg-faded-warning rounded-3">
+                <div class="pt-5 py-sm-5 px-4 ps-md-5 pe-md-0 text-center text-sm-start">
+                    <h2>CONDICIONES DE ENVIO</h2>
+                    <p class="text-muted pb-2">Los envíos se realizaran una vez confirmado el pago previo envió de comprobante de pago, transferencia bancaria o pago con tarjeta de crédito debito.</p><a class="btn btn-primary" href="#">Leer mas</a>
+                </div><img class="d-block mx-auto mx-sm-0" src="image/condiciones.png" width="269" alt="Become a Partner">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="container pb-4 pt-2 pt-sm-0 pt-md-2 pb-sm-5">
+        <h2 class="text-center">EXPLORE NUESTRAS CATEGORÍAS</h2>
+        <p class="text-muted pb-4 text-center">Todo el poder al alcance de tu mano</p>
+        <div class="row pb-2 pb-sm-0 pb-md-3">
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/r4.jpg" style="width: 150px;" alt="Brand"></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/c2.png" style="width: 150px;" alt="Brand"></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/h1.jpg" style="width: 150px;" alt="Brand"></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/x2.jpg" style="width: 150px;" alt="Brand"></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/t4.png" style="width: 150px;" alt="Brand"></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/t3.webp" style="width: 150px;" alt="Brand"></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/c2.png" style="width: 150px;" alt="Brand"></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/r2.jpg" style="width: 150px;" alt="Brand"></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/1.jpg" style="width: 150px;" alt="Brand"></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/2.png" style="width: 150px;" alt="Brand"></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/3.jpg" style="width: 150px;" alt="Brand"></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6">
+                <a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href=""><img class="d-block mx-auto" src="image/4.jpg" style="width: 150px;" alt="Brand"></a>
+            </div>
+        </div>
+    </section>
+    </main>
+    <!-- Toolbar for handheld devices (Food delivery)-->
+    <div class="handheld-toolbar">
+        <div class="d-md-flex justify-content-between pt-4 pb-1">
+            <div class="pb-4 fs-xs text-light opacity-50 text-center text-md-start">© Derechos reservados. Made by Mario Anarata Diaz <a class="text-light" href="https://createx.studio/" target="_blank" rel="noopener">Createx Studio</a></div>
+            <div class="widget widget-links widget-light pb-4">
+                <ul class="widget-list d-flex flex-wrap justify-content-center justify-content-md-start">
+                    <li class="widget-list-item ms-4"><a class="widget-list-link fs-ms" href="#">Politica de privacidad</a></li>
+                    <li class="widget-list-item ms-4"><a class="widget-list-link fs-ms" href="#">Términos &amp; Condiciones</a></li>
+                    <li class="widget-list-item ms-4"><a class="widget-list-link fs-ms" href="#">Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer bg-darker pt-5">
+        <h1 class="text-bg-info text-center">MARIO A. DIAZ</h1>
+    </footer>
+
+</body>
+
+</html>
